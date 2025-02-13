@@ -11,7 +11,7 @@ This project is implemented with Pytorch and has been tested on version\
 ## Run
 If you want to run this code, please change **'your path'** in **main.py** to your correct path, and enter the correct path and corresponding parameters in the **config** file.
 
-> python main.py -pc -pdi -sr
+> python main.py 
 
 
 ## Citation
