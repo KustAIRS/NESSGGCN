@@ -1,0 +1,35 @@
+model:
+  model_name: "NESSGGCN"  
+
+data_input: 
+  dataset_name: "WHU_Hi_HongHu" 
+
+  classes: 22  
+
+
+data_split:
+  samples_type: "ratio"
+  #   Use 'ratio' or 'other' to split the dataset
+  train_num: 100
+  # If using quantity-based splitting, the number can be modified here.
+
+  train_ratio: 0.01
+
+  superpixel_scale: 1000
+  # Superpixel segmentation scale
+
+network_config:
+  max_epoch: 300
+  
+  lb_smooth: 0.01
+
+  learning_rate: 0.001 
+
+  weight_decay: 0.001 
+
+
+result_output:
+  path_weight: "your path/weights/"
+
+  path_result: "your path/results/"
+
