@@ -6,7 +6,7 @@
 
 <h2>Overview</h2>
 
-The proposed NESSGGCN framework for hyperspectral image classification is shown in Figure. The entire process comprises five key components: the Linear Discriminant Analysis-based Simple Linear Iterative Clustering (LDA-SLIC) superpixel segmentation, the Denoising Module, the CNN branch, the Spectral-Spatial Gated GCN, and the Classifier. \
+The proposed **NESSGGCN** framework for hyperspectral image classification is shown in Figure. The entire process comprises five key components: the Linear Discriminant Analysis-based Simple Linear Iterative Clustering (LDA-SLIC) superpixel segmentation, the Denoising Module, the CNN branch, the Spectral-Spatial Gated GCN, and the Classifier. \
 Initially, the original hyperspectral image undergoes superpixel segmentation using the modified LDA-SLIC algorithm. This process yields the transformation matrix Q, which encodes the original image into a superpixel feature map. Additionally, this step also generates two adjacency matrices: the superpixel spectral adjacency matrix Aspe and the superpixel spatial adjacency matrix Aspa, which are subsequently input into the Spectral-Spatial Gated GCN branch. Parallelly, the original image is processed through a denoising module for noise reduction and dimensionality reduction. The denoised feature vectors are then fed into two separate branches: the pixel-level CNN branch and the super-pixel-level Spectral-Spatial Gated GCN branch for feature extraction, respectively. Ultimately, the two output feature vectors from both branches undergo weight fusion, and the fused feature are input into the classifier for final classification. 
 
 
