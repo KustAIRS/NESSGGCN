@@ -29,3 +29,15 @@ Please kindly cite the papers [Non-Euclidean Spectral-Spatial feature mining net
 }
 ```
 
+
+<h2>Code acknowledgments</h2>
+
+We acknowledge the following code repositories that helped to build the NESSGGCN repository :  
+
+- https://github.com/quanweiliu/WFCG
+
+- https://github.com/yuweihao/MambaOut
+
+
+
+Thank you! If there are any that have not been mentioned, please contact me to add them.
