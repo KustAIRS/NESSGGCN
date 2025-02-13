@@ -21,7 +21,8 @@ This project is implemented with Pytorch and has been tested on version\
 - scikit-learn 1.3.0
 
 ## Run
-If you want to run this code, please change **'your path'** in **main.py** to your correct path, and enter the correct path and corresponding parameters in the **config** file.
+If you want to run this code, please change **'your path'** in **main.py** to your correct path, and enter the correct path and corresponding parameters in the **config** file.\
+Before running the code, please create three empty folders to store the results, named *pic*, *weights*, and *results*, respectively.
 
 > python main.py 
 ## Citation
